@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <title>Wayfare</title>
+  </head>
+  <body class="font-Oswald">
+    <header id="#home" class="flex flex-col text-white">
+      <nav
+        class="sticky flex items-center justify-between h-24 px-12 bg-opacity-50 bg-slate-700"
+      >
+        <div class="text-3xl font-semibold">Wayfare</div>
+
+        <ul class="flex justify-start text-lg font-normal">
+          <li class="pr-14"><a href="#home">Home</a></li>
+          <li class="pr-14"><a href="#about">About Us</a></li>
+          <li class="pr-14"><a href="#services">Services</a></li>
+          <li class="pr-14"><a href="#news"></a>News</li>
+          <li class="pr-14"><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="text-xl font-medium">Call us: 00-56 445 678 33</div>
+      </nav>
+
+      <h1 class="flex self-center mt-48 text-center text-8xl">
+        Let us take you away
+      </h1>
+
+      <div
+        class="flex flex-col items-center justify-center h-64 mt-48 bg-white bg-opacity-30"
+      >
+        <div
+          class="py-5 text-xl font-normal text-black bg-white px-14 rounded-t-xl"
+        >
+          Search for You Trip
+        </div>
+        <div class="h-[88px] bg-white w-5/6">
+          <ul class="flex justify-center gap-3 mt-4">
+            <li>
+              <input
+                class="pl-4 text-sm font-medium text-gray-500 bg-gray-200 placeholder:text-gray-500 placeholder:text-lg placeholder:pl-4 h-14"
+                type="text"
+                placeholder="City"
+              />
+            </li>
+            <li>
+              <input
+                class="pl-4 text-sm font-medium text-gray-500 bg-gray-200 placeholder:text-gray-500 placeholder:text-lg placeholder:pl-4 h-14"
+                type="text"
+                placeholder="Departure"
+              />
+            </li>
+            <li>
+              <input
+                class="pl-4 text-sm font-medium text-gray-500 bg-gray-200 placeholder:text-gray-500 placeholder:text-lg placeholder:pl-4 h-14"
+                type="text"
+                placeholder="Arrival"
+              />
+            </li>
+            <li>
+              <input
+                class="pl-4 text-sm font-medium text-gray-500 bg-gray-200 placeholder:text-gray-500 placeholder:text-lg placeholder:pl-4 h-14"
+                type="text"
+                placeholder="Budget"
+              />
+            </li>
+            <li>
+              <button
+                class="text-white bg-black round text-[16px] font-normal rounded-[28px] h-14 px-2 w-40"
+                type="button"
+              >
+                SEARCH
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section>
+        <div
+          class="flex pb-32 border-b-2 border-solid border-[#e4e6e8] justify-center pt-36"
+        >
+          <div class="flex items-center justify-start">
+            <img
+              class="w-64 h-16 -mr-9"
+              src="../images/beach.svg"
+              alt="Beach"
+            />
+            <div class="-ml-9">
+              <h1 class="text-[#181818] text-lg mb-1">Top Destinations</h1>
+              <p class="text-[#72728c] text-sm font-normal">
+                Nulla pretium tincidunt felis, nec.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center justify-start">
+            <img
+              class="w-64 h-16 -mr-9"
+              src="../images/wallet.svg"
+              alt="Wallet"
+            />
+            <div class="-ml-9">
+              <h1 class="text-[#181818] text-lg mb-1">The Best Prices</h1>
+              <p class="text-[#72728c] text-sm font-normal">
+                Sollicitudin mauris lobortis in.
+              </p>
+            </div>
+          </div>
+          <div class="flex items-center justify-start">
+            <img
+              class="w-64 h-16 -mr-9"
+              src="../images/suitcase.svg"
+              alt="Suitcase"
+            />
+            <div class="-ml-9">
+              <h1 class="text-[#181818] text-lg mb-1">Amazing Services</h1>
+              <p class="text-[#72728c] text-sm font-normal">
+                Nulla pretium tincidunt felis, nec.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="offers" class="pt-28 pb-28">
+        <div class="flex flex-col items-center px-4 mx-auto">
+          <p class="uppercase text-[#72728c] text-xs mb-8">
+            Simply Amazing Places
+          </p>
+
+          <h2 class="text-5xl text-[#181818] mb-32">Popular Destinations</h2>
+
+          <div class="grid grid-cols-3 gap-16 mx-8">
+            <div>
+              <img class="h-52 w-72" src="../images/bora.jpg" alt="Bora Bora" />
+              <h2 class="text-3xl text-[#181818] mt-4">Bora Bora</h2>
+              <p class="text-sm text-[#72728c]">
+                Nulla pretium tincidunt felis, nec.
+              </p>
+              <p class="text-base text-[#181818] mt-4">From $679</p>
+            </div>
+
+            <div>
+              <img
+                class="h-52 w-72"
+                src="../images/indonesia.jpg"
+                alt="Indonesia"
+              />
+              <h2 class="text-3xl text-[#181818] mt-4">Indonesia</h2>
+              <p class="text-sm text-[#72728c]">
+                Nulla pretium tincidunt felis, nec.
+              </p>
+              <p class="text-base text-[#181818] mt-4">From $679</p>
+            </div>
+
+            <div>
+              <img
+                class="h-52 w-72"
+                src="../images/budapest.jpg"
+                alt="Budapest"
+              />
+              <h2 class="text-3xl text-[#181818] mt-4">Budapest</h2>
+              <p class="text-sm text-[#72728c]">
+                Nulla pretium tincidunt felis, nec.
+              </p>
+              <p class="text-base text-[#181818] mt-4">From $679</p>
+            </div>
+
+            <div>
+              <img class="h-52 w-72" src="../images/paris.jpg" alt="Paris" />
+              <h2 class="text-3xl text-[#181818] mt-4">Paris</h2>
+              <p class="text-sm text-[#72728c]">
+                Nulla pretium tincidunt felis, nec.
+              </p>
+              <p class="text-base text-[#181818] mt-4">From $679</p>
+            </div>
+
+            <div>
+              <img class="h-52 w-72" src="../images/lahore.jpg" alt="Lahore" />
+              <h2 class="text-3xl text-[#181818] mt-4">Lahore</h2>
+              <p class="text-sm text-[#72728c]">
+                Nulla pretium tincidunt felis, nec.
+              </p>
+              <p class="text-base text-[#181818] mt-4">From $679</p>
+            </div>
+
+            <div>
+              <img class="h-52 w-72" src="../images/bali.jpg" alt="Bali" />
+              <h2 class="text-3xl text-[#181818] mt-4">Bali</h2>
+              <p class="text-sm text-[#72728c]">
+                Nulla pretium tincidunt felis, nec.
+              </p>
+              <p class="text-base text-[#181818] mt-4">From $679</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <div
+          style="
+            background-image: linear-gradient(
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)
+              ),
+              url(../images/boat.jpg);
+            background-size: cover;
+            width: 100%;
+            padding: 100px 80px;
+          "
+          class="flex flex-col items-center"
+        >
+          <p class="mb-8 text-xs text-white">SIMPLY AMAZING PLACES</p>
+          <h2 class="mb-20 text-5xl font-medium text-white">Testimonials</h2>
+          <p class="mb-20 text-3xl text-center text-white font-extralight">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            ipsam minima officia, dolorum adipisci quo. Blanditiis, voluptatum
+            qui voluptatibus est magnam dolorum aspernatur laudantium dicta
+            voluptatem ut! Tempora, numquam asperiores.
+          </p>
+          <h4 class="text-lg text-white">
+            John Turner, <span class="text-xs">Client</span>
+          </h4>
+        </div>
+      </section>
+
+      <section id="news" class="flex">
+        <div style="padding: 115px 50px">
+          <div class="flex mb-16" style="gap: 25px; margin-bottom: 50px">
+            <img class="h-52 w-72" src="../images/img1.jpg" alt="" />
+            <div>
+              <h1 class="text-5xl text-[#181818]" style="margin-bottom: 17px">
+                02 <span class="text-xs text-[#72728c]">June</span>
+              </h1>
+              <p class="text-3xl text-[#181818]">Best tips to travel light</p>
+              <p class="text-[9px] text-[#72728c]" style="margin-bottom: 17px">
+                LIFESTYLE & TRAVEL
+              </p>
+              <p class="text-sm text-[#72728c]">
+                Pellentesque sit amet elementum ccumsan sit amet mattis eget,
+                tristique at leo. Vivamus massa.Tempor massa et laoreet.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex mb-16" style="gap: 25px; margin-bottom: 50px">
+            <img class="h-52 w-72" src="../images/img2.jpg" alt="" />
+            <div>
+              <h1 class="text-5xl text-[#181818]" style="margin-bottom: 17px">
+                01 <span class="text-xs text-[#72728c]">June</span>
+              </h1>
+              <p class="text-3xl text-[#181818]">Best tips to travel light</p>
+              <p class="text-[9px] text-[#72728c]" style="margin-bottom: 17px">
+                LIFESTYLE & TRAVEL
+              </p>
+              <p class="text-sm text-[#72728c]">
+                Tempor massa et laoreet malesuada. Pellentesque sit amet
+                elementum ccumsan sit amet mattis eget, tristique at leo.
+              </p>
+            </div>
+          </div>
+
+          <div class="flex mb-16" style="gap: 25px">
+            <img class="h-52 w-72" src="../images/img3.jpg" alt="" />
+            <div>
+              <h1 class="text-5xl text-[#181818]" style="margin-bottom: 17px">
+                29 <span class="text-xs text-[#72728c]">May</span>
+              </h1>
+              <p class="text-3xl text-[#181818]">Best tips to travel light</p>
+              <p class="text-[9px] text-[#72728c]" style="margin-bottom: 17px">
+                LIFESTYLE & TRAVEL
+              </p>
+              <p class="text-sm text-[#72728c]">
+                Vivamus massa.Tempor massa et laoreet malesuada. Aliquam nulla
+                nisl, accumsan sit amet mattis.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer
+      style="
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url(../images/footer.jpg);
+        background-size: cover;
+        height: 50vh;
+        width: 100%;
+      "
+    >
+      <div style="padding-top: 60px; padding-left: auto; padding-right: auto">
+        <div style="font-size: 36px; color: white; text-align: center">
+          Subscribe to our newsletter to get the latest trends & news
+        </div>
+        <p style="color: white; text-align: center; margin-bottom: 50px">
+          Join our database NOW!
+        </p>
+        <div class="flex justify-center gap-6 text-white">
+          <input
+            style="
+              width: 260px;
+              height: 50px;
+              background-color: #ffffff80;
+              padding-left: 20px;
+            "
+            type="text"
+            placeholder="Name"
+          />
+
+          <input
+            style="
+              width: 480px;
+              background-color: #ffffff80;
+              padding-left: 20px;
+            "
+            type="email"
+            placeholder="Your e-mail"
+          />
+
+          <button
+            style="
+              width: 160px;
+              background-color: #ffffff80;
+              border-radius: 10px;
+            "
+          >
+            Subscribe
+          </button>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
